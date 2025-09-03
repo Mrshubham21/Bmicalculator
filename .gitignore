@@ -3,13 +3,42 @@
 .packages
 .pub-cache/
 build/
-.flutter-plugins
-.flutter-plugins-dependencies
+flutter_export_environment.sh
 
 # IntelliJ related
 *.iml
 .idea/
 .vscode/
 
-# Others
+# Android related
+android/.gradle/
+android/local.properties
+android/app/debug
+android/app/profile
+android/app/release
+
+# iOS related
+ios/Flutter/.last_build_id
+ios/Pods/
+ios/Runner/GeneratedPluginRegistrant.*
+*.xcworkspace
+*.xcuserstate
+
+# macOS related
+macos/Flutter/GeneratedPluginRegistrant.swift
+
+# Windows related
+windows/flutter/ephemeral/
+windows/Runner/GeneratedPluginRegistrant.*
+
+# Linux related
+linux/flutter/ephemeral/
+
+# Web related
+web/.dart_tool/
+
+# Logs
 *.log
+
+# Other
+pubspec.lock
